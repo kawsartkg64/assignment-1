@@ -119,15 +119,19 @@ body {
     align-items: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin: 20px;
+    margin-left: 640px;
+    margin-right: 240px;
+    margin-bottom: 25px;
+    
     gap: 25px;
-    /* width: 1000px; */
-    /* height: 320px; */
+    width: 800px;
+    height: 200px;
+   
  
 }
 .support-1{
-    align-items: center;
-    text-align: center;
+    
+ text-align: center;
 }
 
 .deal {
