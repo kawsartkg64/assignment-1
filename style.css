@@ -47,6 +47,41 @@ body {
     font-family: Lato;
     font-size: 20px;
 }
+.featured-text{
+    text-align: center;
+    padding-top: 55px;
+}
+.featured-img{
+    margin: 40px 50px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
+}
+.featured-color1{
+   
+    padding-top: 70px;
+    padding-left: 47px;
+    padding-right: 47px;
+    background: rgba(187, 47, 115, 0.15);
+    border-radius:  300px 300px 0px 0px;
+    
+}
+.featured-color2{
+    padding: 60px 20px;
+    background: rgba(36, 173, 180, 0.15);;
+    border-radius:  300px 300px 0px 0px;
+    
+}
+.featured-color3{
+    padding-top: 70px;
+    padding-left: 47px;
+    padding-right: 47px;
+    background: rgba(76, 118, 35, 0.15);
+    border-radius:  300px 300px 0px 0px;
+    
+}
+
 
 .insta-text {
     text-align: center;
