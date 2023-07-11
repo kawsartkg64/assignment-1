@@ -125,6 +125,10 @@ body {
     /* height: 320px; */
  
 }
+.support-1{
+    align-items: center;
+    text-align: center;
+}
 
 .deal {
     display: flex;
