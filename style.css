@@ -31,7 +31,9 @@ body {
 }
 
 .banner-image {
-    width: 300px;
+
+    width: 635px;
+    height: 800px;
     margin-top: 50px;
     padding-right: 20px;
 }
@@ -41,12 +43,14 @@ body {
     border-radius: 8px;
     background: #dd4e6d;
     border: none;
-    font-weight: bold;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
 }
 
 .insta-text {
     text-align: center;
-   
+
 }
 
 .insta-head {
@@ -62,8 +66,40 @@ body {
     font-size: 18px;
     padding-bottom: 5px;
 }
-.insta-image{
+
+.insta-image {
     display: flex;
     justify-content: center;
-    gap:15px;
+    gap: 15px;
+}
+
+footer {
+    background-image: url('../images/travels.webp');
+    width: 1440px;
+    height: 449px;
+}
+
+span {
+    color: #E55473;
+}
+
+.footer-main{
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    margin-top: 50px;
+}
+.footer-header {
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+}
+footer{
+    text-align: center;
+    background-color: #111010;
+    width: 0 auto;
+    color:white;
+    width: 1922px;
+    height: 449px;
+    
 }
