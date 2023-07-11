@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -12,7 +7,7 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: #E554731A;
-   
+
 }
 
 .main-text {
@@ -34,8 +29,41 @@ body {
     font-size: 18px;
 
 }
-.banner-image{
-    /* width: 300px; */
+
+.banner-image {
+    width: 300px;
     margin-top: 50px;
-    padding-right:  20px;
+    padding-right: 20px;
+}
+
+.btn {
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: #dd4e6d;
+    border: none;
+    font-weight: bold;
+}
+
+.insta-text {
+    text-align: center;
+   
+}
+
+.insta-head {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.insta-content {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.insta-image{
+    display: flex;
+    justify-content: center;
+    gap:15px;
 }
