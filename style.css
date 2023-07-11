@@ -73,33 +73,65 @@ body {
     gap: 15px;
 }
 
-footer {
-    background-image: url('../images/travels.webp');
-    width: 1440px;
-    height: 449px;
-}
+
 
 span {
     color: #E55473;
 }
 
-.footer-main{
-    justify-content: center;
-    align-items: center;
-    padding-top: 100px;
-    margin-top: 50px;
-}
+
+
 .footer-header {
     font-family: Lato;
     font-size: 48px;
     font-weight: 800;
+    text-align: center;
+
 }
-footer{
+
+footer {
     text-align: center;
     background-color: #111010;
-    width: 0 auto;
-    color:white;
-    width: 1922px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding-top: 150px;
+    margin-top: 50px;
+
+}
+
+.input-photo {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+   
     height: 449px;
-    
+    flex-shrink: 0;
+}
+
+.input-image {
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.input-head {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+
+}
+
+.input-des {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+
+}
+.text-input{
+    position: relative;
 }
