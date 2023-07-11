@@ -47,39 +47,67 @@ body {
     font-family: Lato;
     font-size: 20px;
 }
-.featured-text{
+
+.featured-text {
     text-align: center;
     padding-top: 55px;
+    width: ;
 }
-.featured-img{
+
+.feature-main-text {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+}
+
+.featured-img {
     margin: 40px 50px;
     display: flex;
+    align-items:self-end;
+    text-align: center;
     justify-content: center;
-    gap: 15px;
     
+
 }
-.featured-color1{
-   
+
+.featured-color1 {
+
     padding-top: 70px;
     padding-left: 47px;
     padding-right: 47px;
     background: rgba(187, 47, 115, 0.15);
-    border-radius:  300px 300px 0px 0px;
-    
+    border-radius: 300px 300px 0px 0px;
+
 }
-.featured-color2{
+
+.featured-color2 {
     padding: 60px 20px;
-    background: rgba(36, 173, 180, 0.15);;
-    border-radius:  300px 300px 0px 0px;
-    
+    background: rgba(36, 173, 180, 0.15);
+    ;
+    border-radius: 300px 300px 0px 0px;
+
 }
-.featured-color3{
+
+.featured-color3 {
     padding-top: 70px;
     padding-left: 47px;
     padding-right: 47px;
     background: rgba(76, 118, 35, 0.15);
-    border-radius:  300px 300px 0px 0px;
-    
+    border-radius: 300px 300px 0px 0px;
+
+}
+.link-f{
+    margin-top: 500px;
 }
 
 
@@ -135,14 +163,21 @@ footer {
     margin-top: 50px;
 
 }
-
+.input{
+    width: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .input-photo {
     margin-top: 50px;
     display: flex;
-    justify-content: center;
-   
+    justify-content: space-around;
+    width: 1438px;
     height: 449px;
-    flex-shrink: 0;
+    background-image: url('./Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .input-image {
@@ -167,6 +202,4 @@ footer {
     font-size: 18px;
 
 }
-.text-input{
-    position: relative;
-}
+
